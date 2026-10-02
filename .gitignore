@@ -1,0 +1,5 @@
+acclerator_env/
+acclerator_vivado/*.cache/
+acclerator_vivado/*.hw/
+acclerator_vivado/*.ip_user_files/
+acclerator_vivado/*.sim/
