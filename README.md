@@ -1,0 +1,1 @@
+The implementations are hardware validations of what was proposed in my paper. This includes ping pong buffering to avoid the transfer delays, systolic array for increased compute density, and customizable quantization
