@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_gemm_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_gemm" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="224,995 ps"></ZoomStartTime>
+      <ZoomEndTime time="225,002 ps"></ZoomEndTime>
+      <Cursor1Time time="224,996 ps"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="281"></NameColumnWidth>
+      <ValueColumnWidth column_width="100"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="41" />
+   <wvobject type="logic" fp_name="/tb_gemm/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_gemm/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_gemm/start">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_gemm/k_dim">
+      <obj_property name="ElementShortName">k_dim[3:0]</obj_property>
+      <obj_property name="ObjectShortName">k_dim[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_gemm/done">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_gemm/load_we_a">
+      <obj_property name="ElementShortName">load_we_a</obj_property>
+      <obj_property name="ObjectShortName">load_we_a</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_gemm/load_addr_a">
+      <obj_property name="ElementShortName">load_addr_a[3:0]</obj_property>
+      <obj_property name="ObjectShortName">load_addr_a[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_gemm/load_din_a">
+      <obj_property name="ElementShortName">load_din_a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">load_din_a[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_gemm/load_we_b">
+      <obj_property name="ElementShortName">load_we_b</obj_property>
+      <obj_property name="ObjectShortName">load_we_b</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_gemm/load_addr_b">
+      <obj_property name="ElementShortName">load_addr_b[3:0]</obj_property>
+      <obj_property name="ObjectShortName">load_addr_b[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_gemm/load_din_b">
+      <obj_property name="ElementShortName">load_din_b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">load_din_b[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_gemm/matrix_c">
+      <obj_property name="ElementShortName">matrix_c[0:3][0:3][31:0]</obj_property>
+      <obj_property name="ObjectShortName">matrix_c[0:3][0:3][31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_gemm/mem_a_hex">
+      <obj_property name="ElementShortName">mem_a_hex[0:15][31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_a_hex[0:15][31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_gemm/mem_b_hex">
+      <obj_property name="ElementShortName">mem_b_hex[0:15][31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_b_hex[0:15][31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_gemm/mem_c_expected">
+      <obj_property name="ElementShortName">mem_c_expected[0:3][0:3][31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_c_expected[0:3][0:3][31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_gemm/error_count">
+      <obj_property name="ElementShortName">error_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">error_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_gemm/ARRAY_SIZE">
+      <obj_property name="ElementShortName">ARRAY_SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ARRAY_SIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_gemm/DATA_WIDTH">
+      <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_gemm/ACC_WIDTH">
+      <obj_property name="ElementShortName">ACC_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ACC_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_gemm/DEPTH">
+      <obj_property name="ElementShortName">DEPTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DEPTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_gemm/ADDR_WIDTH">
+      <obj_property name="ElementShortName">ADDR_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_gemm/CLK_PERIOD">
+      <obj_property name="ElementShortName">CLK_PERIOD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CLK_PERIOD[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_gemm/K_TEST">
+      <obj_property name="ElementShortName">K_TEST[31:0]</obj_property>
+      <obj_property name="ObjectShortName">K_TEST[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_gemm/dut/u_systolic_array/\ROW[0].COL[3].pe_inst /clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_gemm/dut/u_systolic_array/\ROW[0].COL[3].pe_inst /rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_gemm/dut/u_systolic_array/\ROW[0].COL[3].pe_inst /clr_acc">
+      <obj_property name="ElementShortName">clr_acc</obj_property>
+      <obj_property name="ObjectShortName">clr_acc</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_gemm/dut/u_systolic_array/\ROW[0].COL[3].pe_inst /a_in">
+      <obj_property name="ElementShortName">a_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">a_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_gemm/dut/u_systolic_array/\ROW[0].COL[3].pe_inst /b_in">
+      <obj_property name="ElementShortName">b_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">b_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_gemm/dut/u_systolic_array/\ROW[0].COL[3].pe_inst /a_out">
+      <obj_property name="ElementShortName">a_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">a_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_gemm/dut/u_systolic_array/\ROW[0].COL[3].pe_inst /b_out">
+      <obj_property name="ElementShortName">b_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">b_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_gemm/dut/u_systolic_array/\ROW[0].COL[3].pe_inst /c_out">
+      <obj_property name="ElementShortName">c_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_gemm/dut/u_ping_pong_bram/ram_a_bank0/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_gemm/dut/u_ping_pong_bram/ram_a_bank0/we_a">
+      <obj_property name="ElementShortName">we_a</obj_property>
+      <obj_property name="ObjectShortName">we_a</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_gemm/dut/u_ping_pong_bram/ram_a_bank0/addr_a">
+      <obj_property name="ElementShortName">addr_a[3:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_a[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_gemm/dut/u_ping_pong_bram/ram_a_bank0/din_a">
+      <obj_property name="ElementShortName">din_a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">din_a[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_gemm/dut/u_ping_pong_bram/ram_a_bank0/addr_b">
+      <obj_property name="ElementShortName">addr_b[3:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_b[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_gemm/dut/u_ping_pong_bram/ram_a_bank0/dout_b">
+      <obj_property name="ElementShortName">dout_b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout_b[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_gemm/dut/u_ping_pong_bram/ram_a_bank0/ram">
+      <obj_property name="ElementShortName">ram[0:15][31:0]</obj_property>
+      <obj_property name="ObjectShortName">ram[0:15][31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_gemm/dut/u_ping_pong_bram/ram_a_bank0/DATA_WIDTH">
+      <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_gemm/dut/u_ping_pong_bram/ram_a_bank0/DEPTH">
+      <obj_property name="ElementShortName">DEPTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DEPTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_gemm/dut/u_ping_pong_bram/ram_a_bank0/ADDR_WIDTH">
+      <obj_property name="ElementShortName">ADDR_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR_WIDTH[31:0]</obj_property>
+   </wvobject>
+</wave_config>
